@@ -2,3 +2,9 @@ body {
     background-color: pink;
     background-image: url("/images/background-hamster.png");
 }
+
+h1 {
+    color: white;
+}
+h2  {color: white;}
+nav{color: white;}
