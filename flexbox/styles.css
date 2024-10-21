@@ -1,0 +1,29 @@
+html{
+    border: 2px solid rgb(253, 32, 106);
+    height: 100%
+}
+
+body {
+    border: 2px solid orchid;
+    height: 100%;
+    margin: 10px;
+}
+.container  {
+    border: 1PX solid red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    border: 1px solid pink;
+    width: 50px;
+}
+.item {
+    border: 1px solid firebrick;
+    background-color: brown;
+    flex-grow: 1;
+}
+.item_big {
+    background-color: aquamarine;
+    flex-grow: 3;
+}
