@@ -1,18 +1,62 @@
-html,
+html {
+  height: 100%;
+}
 body {
-  background-color: pink;
-  background-image: url("/images/background-hamster.png");
+  background-color: lightpink;
   color: white;
   font-family: "Overpass", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom center;
   min-height: 100%;
   height: 100%;
   padding: 0px;
   margin: 0px;
+}
+
+section {
+  height: 100%;
+}
+
+.main_section {
+  background-image: url("/images/background-hamster.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 20%;
+  text-align: center;
+  background-color: rgb(235, 159, 170);
+  font-family: "Overpass", sans-serif;
+  font-size: 80px;
+  text-align: left;
+}
+
+.about_section {
+  text-align: center;
+  background-color: rgb(235, 159, 170);
+  font-family: "Overpass", sans-serif;
+
+  text-align: left;
+}
+
+.services_section {
+  text-align: center;
+  background-color: rgb(235, 159, 170);
+  font-family: "Overpass", sans-serif;
+
+  text-align: left;
+}
+
+.contact_section {
+  text-align: center;
+  background-color: rgb(235, 159, 170);
+  font-family: "Overpass", sans-serif;
+
+  text-align: left;
+}
+
+.content {
+  padding-left: 100px;
+  padding-top: 50px;
+  font-size: 80px;
 }
 
 h1 {
@@ -21,9 +65,8 @@ h1 {
   line-height: 90px;
   font-weight: 900;
   font-style: normal;
-  text-align: center;
-  padding-right: 70px;
-  padding-left: 800px;
+  text-align: right;
+  padding-right: 50px;
 }
 
 h2 {
@@ -31,10 +74,9 @@ h2 {
   font-optical-sizing: auto;
   font-weight: 350;
   font-style: normal;
-  text-align: center;
-  padding-right: 70px;
-  padding-left: 800px;
+  text-align: right;
   font-size: xx-large;
+  padding-right: 50px;
 }
 
 ul {
@@ -42,8 +84,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ffffff62: ;
-font-size: xxx-large;
+  background-color: #ffffff62;
+  font-size: 50px;
 }
 
 li {
@@ -62,5 +104,33 @@ li a {
 
 /* Change the link color to  #ffffff62 (black) on hover */
 li a:hover {
-  background-color:  #ffffff62;
+  background-color: #ffffff62;
+}
+
+@media (max-width: 600px) {
+  ul {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 60px;
+    line-height: 50px;
+    text-align: right;
+    padding-right: 30px;
+  }
+
+  h2 {
+    font-family: "Overpass", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 10px;
+    padding-top:400px;
+  }
+
+  .content {
+text-align: left;
+    font-size: 50px;
+  }
+
 }
